@@ -1,5 +1,9 @@
 #Author: Serag Hassouna
 #Purpose: Load an AutoLISP file (here named "linedraw.lsp") to a specified drawing (here named "TestDwg.dwg")
+#A resolved issue related to the comtypes module:
+#https://stackoverflow.com/questions/52111215/get-the-running-autocad-application-using-comtypes-in-python-2-7
+#Originally posted on:
+#https://forums.autodesk.com/t5/visual-lisp-autolisp-and-general/postcommand-doesn-t-read-autolisp-expression-python-2-7-amp/m-p/8240696#M373595
 
 #Import needed modules
 import os
